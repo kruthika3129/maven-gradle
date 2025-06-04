@@ -1,0 +1,7 @@
+mvn clean compile
+mvn package
+java -jar target/snapshot.jar
+
+  gradle init --type pom
+gradle clean build
+java -jar build/libs/shapshot.jar
